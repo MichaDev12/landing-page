@@ -83,6 +83,46 @@ li {
 /* Projects */
 .projects {
   background-color: #0F4C75;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.projects h1 {
+  color: #fff;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  text-align: center;
+  width: 200px;
+  margin: 30px;
+}
+
+.box-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 200px;
+  border: 5px #1b262c;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.box img {
+  height: 150px;
+  width: auto;
+}
+
+.box p {
+  color: #fff;
 }
 
 /* quote */
