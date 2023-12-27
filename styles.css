@@ -149,6 +149,50 @@ li {
 /* final */
 .final {
   background-color: #BBE1FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.container {
+  margin: 50px 0;
+  padding: 30px 65px;
+  background-color: #3282B8;
+  border-radius: 10px;
+  display: flex;
+}
+
+.left-text {
+  margin-right: 190px;
+}
+
+.left-text h3 {
+  font-size: 20px;
+}
+
+.left-text p {
+  font-size: 15px;
+}
+
+.left-text h3,
+.left-text p {
+  margin: 5px;
+  color: #bbe1fa;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-button {
+  padding: 5px 15px;
+  border: 2px solid #BBE1FA;
+  border-radius: 15px;
+  color: #bbe1fa;
 }
 
 /* footer */
