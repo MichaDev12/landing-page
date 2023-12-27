@@ -1,3 +1,8 @@
+/* Font */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* General */
 body {
   margin: 0;
@@ -75,3 +80,22 @@ li {
   border-radius: 10px;
 }
 
+/* Projects */
+.projects {
+  background-color: #0F4C75;
+}
+
+/* quote */
+.big-quote {
+  background-color: #3282B8;
+}
+
+/* final */
+.final {
+  background-color: #BBE1FA;
+}
+
+/* footer */
+.footer {
+  background-color: #1B262C;
+}
