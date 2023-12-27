@@ -128,6 +128,22 @@ li {
 /* quote */
 .big-quote {
   background-color: #3282B8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 190px;
+}
+
+.quote {
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 25px;
+  color: #BBE1FA;;
 }
 
 /* final */
